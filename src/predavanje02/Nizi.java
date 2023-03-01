@@ -1,4 +1,4 @@
-package predavanje01;
+package predavanje02;
 
 /**
  * Prikaz delovanja osnovnih funkcij za delo z 
