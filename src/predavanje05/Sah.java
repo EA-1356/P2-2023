@@ -1,7 +1,6 @@
 package predavanje05;
 
 import java.util.Scanner;
-import org.w3c.dom.Attr;
 
 /**
  * Sah - program, ki dvema igralcema omogoča igranje igre šah:                            <br>
