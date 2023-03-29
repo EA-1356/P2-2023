@@ -6,8 +6,13 @@ package si.fri.kodiranje.main;
  * @author tomaz
  */
 public class TestKodiranje {
+  
+  /**
+   * Niz, ki se uporablja v metodah za testiranje.
+   */
+  public static String niz = "To je dolgo besedilo, ki ga kodiram.";
+  
   public static void main(String[] args) {
-    String niz = "To je dolgo besedilo, ki ga kodiram.";
     niz = Kodirniki.kodirajB64(niz);
     System.out.println(niz);
     

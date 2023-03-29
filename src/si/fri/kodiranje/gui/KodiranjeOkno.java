@@ -7,7 +7,7 @@ import si.fri.kodiranje.main.Kodiranje;
  * Večji del tega razreda je Netbeans zgeneririral avtomatsko
  * (mi smo risali okno z miško, Netbeans pa je generiral kodo).
  * 
- * @author netbeans & tomaz
+ * @author tomaz
  */
 public class KodiranjeOkno extends javax.swing.JFrame {
 
@@ -140,7 +140,10 @@ public class KodiranjeOkno extends javax.swing.JFrame {
     pack();
   }// </editor-fold>//GEN-END:initComponents
 
-  // Ta metoda se bo klicala, ko bo uporabnik pritisnil gumb "Kodiraj / Odkodiraj"
+  /**
+   * Ta metoda se bo klicala, ko bo uporabnik pritisnil gumb 
+   * "Kodiraj / Odkodiraj"
+   */
   private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
     String metoda = (String) metodaCB.getSelectedItem();
     String smer  = (String) smerCB.getSelectedItem();
@@ -154,7 +157,9 @@ public class KodiranjeOkno extends javax.swing.JFrame {
     } catch (Exception e) {}  
   }//GEN-LAST:event_jButton1ActionPerformed
 
-  // Ta metoda se bo klicala, ko bo uporabnik pritisnil gumb "Prebrskaj..."
+  /**
+   * Ta metoda se bo klicala, ko bo uporabnik pritisnil gumb "Prebrskaj..."
+   */
   private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
     // ustvarim "okno za odpiranje datotek" ...
     JFileChooser jfc = new JFileChooser();

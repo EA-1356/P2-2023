@@ -79,7 +79,7 @@ public class Kodiranje {
     } else { 
       // ... sicer odprem grafično okno, metoda doKodiranje se bo klicala 
       // ob pritisku na gumb "Kodiraj / Odkodiraj" v oknu
-      KodiranjeOkno.prikaziOkno();
+      KodiranjeOkno.prikaziOkno();      
     }
   }
 }
