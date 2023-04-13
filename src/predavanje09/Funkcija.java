@@ -1,4 +1,4 @@
-package predavanja09;
+package predavanje09;
 
 /**
  * Abstraktni razred Funkcija - definira dve abstraktni metodi: 

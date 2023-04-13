@@ -1,4 +1,4 @@
-package predavanja09;
+package predavanje09;
 
 /**
  * Razred z atributi "avtor", "naslov", "letoIzdaje" ter metodami 

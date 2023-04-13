@@ -1,4 +1,4 @@
-package predavanja09;
+package predavanje09;
 
 /**
  * Iz razreda Knjiga izpeljani razred, ki ima poleg podedovanih atributov 

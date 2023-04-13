@@ -1,4 +1,4 @@
-package predavanja09;
+package predavanje09;
 
 /**
  * Razred definira metodo nicla(), ki s pomočjo znane Newtnove 

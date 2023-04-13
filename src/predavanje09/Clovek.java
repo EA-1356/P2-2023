@@ -1,4 +1,4 @@
-package predavanja09;
+package predavanje09;
 
 /**
  * Podrazred razreda Oseba z redefinirano metodo izpisi().

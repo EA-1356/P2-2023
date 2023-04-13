@@ -1,4 +1,4 @@
-package predavanja09;
+package predavanje09;
 
 // Razsiritev razreda Funkcija - definiramo metodi
 // vrednost in odvod tako, da funkcija ustreza 
