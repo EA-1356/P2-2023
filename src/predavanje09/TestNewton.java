@@ -4,11 +4,10 @@ package predavanje09;
 // vrednost in odvod tako, da funkcija ustreza 
 // realni funkciji sinus.
 class Sinus extends Funkcija {
-  double vrednost(double x) {
+  public double vrednost(double x) {
     return Math.sin(x);
   }
-  
-  double odvod(double x) {
+  public double odvod(double x) {
     return Math.cos(x);
   }
 }

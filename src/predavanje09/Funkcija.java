@@ -6,6 +6,6 @@ package predavanje09;
  * @author tomaz
  */
 abstract public class Funkcija {
-  abstract double vrednost(double x);
-  abstract double odvod   (double x);
+  abstract public double vrednost(double x);
+  abstract public double odvod   (double x);
 }
