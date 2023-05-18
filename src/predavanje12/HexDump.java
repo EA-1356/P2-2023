@@ -12,16 +12,23 @@ public class HexDump {
   public static void main(String[] args) {
     try {
       // odprem binarno datoteko ...
-      FileInputStream fis = new FileInputStream(new File("viri/medo.png"));
+      FileInputStream fis = new FileInputStream(new File("viri/zaba.jpg"));
       int s=0;
+      
+      String znaki = "";
       // ... dokler ima datoteka še vsebino ...
       while (fis.available() > 0) {
         // ... berem znak po znaku ...
         int z = fis.read();s++;
         
+        znaki += (z >=32 && z<=127) ? (char) z : ".";
+        
         System.out.printf("%02X ", z);
         if (s%8  == 0) System.out.print("  ");
-        if (s%16 == 0) System.out.println();
+        if (s%16 == 0) {
+          System.out.println("   |" + znaki+"|");
+          znaki="";
+        }
       }
       // ... in na koncu zaprem
       fis.close();
